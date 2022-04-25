@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Tailwind Parent</title>
+
+  <link href="./test.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="mt-8 flex justify-center gap-2">
+    <div class="is-red">
+      <div class="w-24 h-24 bg-black"></div>
+    </div>
+    <div class="is-red">
+      <div>
+        <div class="w-24 h-24 bg-black is-red:bg-red-500"></div>
+      </div>
+    </div>
+    <div class="is-red">
+      <div>
+        <div class="w-24 h-24 bg-black direct-red:bg-red-500"></div>
+      </div>
+    </div>
+    <div class="is-red">
+      <div class="w-24 h-24 bg-black direct-red:bg-red-500"></div>
+    </div>
+    <div class="is-green">
+      <div class="w-24 h-24 bg-black is-green:bg-green-500"></div>
+    </div>
+    <div class="is-blue">
+      <div class="w-24 h-24 bg-black is-blue:bg-blue-500"></div>
+    </div>
+  </div>
+</body>
+</html>
