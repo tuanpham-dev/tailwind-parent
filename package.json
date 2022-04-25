@@ -1,6 +1,6 @@
 {
   "name": "tailwind-parent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Tailwind Plugin that allows you to style elements based on their parent classes.",
   "main": "./src/index.js",
   "scripts": {
